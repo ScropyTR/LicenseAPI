@@ -8,6 +8,8 @@
     <artifactId>licenseapi</artifactId>
     <version>1.0.0</version>
 
+    <name>LegendInventoryAPI</name>
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -42,6 +44,20 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.ScropyTR</groupId>
+            <artifactId>LicenseAPI</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
